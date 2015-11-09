@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <RadioGroup
+        android:id="@+id/fcl_LedGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/fcl_ledbut1"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/fcl_ledbut1"
+            android:layout_margin="3px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:gravity="right|center_vertical"
+            android:text="LED1"
+            android:textColor="@drawable/GRAY" />
+
+        <RadioButton
+            android:id="@+id/fcl_ledbut2"
+            android:layout_margin="3px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:gravity="right|center_vertical"
+            android:text="LED2"
+            android:textColor="@drawable/GRAY" />
+
+        <RadioButton
+            android:id="@+id/fcl_ledbut3"
+            android:layout_margin="3px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:gravity="right|center_vertical"
+            android:text="LED3"
+            android:textColor="@drawable/GRAY" />
+
+        <RadioButton
+            android:id="@+id/fcl_ledbut4"
+            android:layout_margin="3px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:gravity="right|center_vertical"
+            android:text="LED4"
+            android:textColor="@drawable/GRAY" />
+
+        <RadioButton
+            android:id="@+id/fcl_ledbut5"
+            android:layout_margin="3px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:gravity="right|center_vertical"
+            android:text="All"
+            android:textColor="@drawable/GRAY" />
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/fcl_ColorGruop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="true"
+        android:checkedButton="@+id/fcl_red"
+        android:orientation="horizontal" >
+    <RadioButton
+        android:id="@+id/fcl_red"
+        android:layout_margin="5px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:gravity="center|center_vertical"
+        android:text="Red"
+        android:textColor="@drawable/RED" />
+
+    <RadioButton
+        android:id="@+id/fcl_blue"
+        android:layout_margin="5px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:gravity="right|center_vertical"
+        android:text="Blue"
+        android:textColor="@drawable/BLUE" />
+
+        <RadioButton
+            android:id="@+id/fcl_green"
+            android:layout_margin="5px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:gravity="right|center_vertical"
+            android:text="Green"
+            android:textColor="@drawable/GREEN" />
+
+        <RadioButton
+            android:id="@+id/fcl_random"
+            android:layout_margin="5px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:gravity="right|center_vertical"
+            android:text="Random"
+            android:textColor="@drawable/GRAY" />
+
+        <RadioButton
+            android:id="@+id/fcl_off"
+            android:layout_margin="5px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:gravity="right|center_vertical"
+            android:text="Off"
+            android:textColor="@drawable/GRAY" />
+    </RadioGroup>
+    <SeekBar
+        android:id="@+id/fcl_seekBar_red"
+        android:layout_width="400dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:max="100" />
+
+    <SeekBar
+        android:id="@+id/fcl_seekBar_green"
+        android:layout_width="400dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:max="100" />
+
+    <SeekBar
+        android:id="@+id/fcl_seekBar_blue"
+        android:layout_width="400dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:max="100" />
+
+</LinearLayout>
